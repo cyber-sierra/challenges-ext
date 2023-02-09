@@ -1,25 +1,17 @@
-# Assignment
+### About the Company  
 
-### The goal of this project is to assess Test Engineering skills for candidates at Cyber Sierra.
+Cyber Sierra, is a global Cyber Insurtech Business with a vision to secure and protect all online businesses. 
 
-Project Name: CS Test Suite
+Our People are of high integrity, value good work ethics, and mission-focused. 
 
-Project Goal: Create manual and automated test suites for any application of your choice
+## Why Cyber Sierra
 
-Technology: JMeter / Your Preferred Tool
+Cyber Sierra is a mission-driven organization, with aim to help ALL small and medium businesses globally, to conquer new age cyber risks and compliance needs. In the process, Cyber Sierra seeks to build the best cyber experiences for professionals. 
 
-Deliverables: Exported, runnable test suite in xml or zip file. You will be walking through your work with your interviewer 
+## Open roles
+1. [Backend Engineer](https://cybersierra.freshteam.com/jobs/mt1GDbnHgarR/backend-engineer-remote)
+2. [Frontend Engineer](https://cybersierra.freshteam.com/jobs/YmIu_d6UxzBE/frontend-engineer-remote)
+3. [Test Engineer](https://cybersierra.freshteam.com/jobs/0_txM6DzkAGM/test-engineer-remote)
 
-Description: Create manual and automated test suites designe to test an application of your choice. 
 
-Boundaries: Do not spend more than 3 hours on this task. You may limit your manual and automated test cases to 5 each. 
-
-Criteria for assessment: Originality, Structure, Ease of understanding
-
-## Guidelines
-
-The test suite has to be easy to setup and work without major issues.
-
-## Kindly Note
-
-This repository contains an assignment for potential Test Engineers at Cyber Sierra, you can apply for a job at: https://cybersierra.freshteam.com/jobs/0_txM6DzkAGM/test-engineer-remote
+Challenges for the role are detailed in the branch associated to each role.Please do not commit your submission to the branch. 
