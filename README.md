@@ -1,25 +1,11 @@
 # Assignment
 
-### The goal of this project is to assess Test Engineering skills for candidates at Cyber Sierra.
+This repository contains an assignment for potential Frontend Engineers at Cyber Sierra, you can apply for a job [here](https://cybersierra.freshteam.com/jobs/YmIu_d6UxzBE/frontend-engineer-remote).
 
-Project Name: CS Test Suite
+## Challenge
+The goal of this project is to assess Frontend engineering candidates at Cyber Sierra. Kindly assess the challenge in the link below.
 
-Project Goal: Create manual and automated test suites for any application of your choice
+[Front-End Challenge](https://coderbyte.com/sl-candidate?promo=fortonetechnologies-kovwp:react-assessment-reoe11pivr) 
 
-Technology: JMeter / Your Preferred Tool
 
-Deliverables: Exported, runnable test suite in xml or zip file. You will be walking through your work with your interviewer 
 
-Description: Create manual and automated test suites designe to test an application of your choice. 
-
-Boundaries: Do not spend more than 3 hours on this task. You may limit your manual and automated test cases to 5 each. 
-
-Criteria for assessment: Originality, Structure, Ease of understanding
-
-## Guidelines
-
-The test suite has to be easy to setup and work without major issues.
-
-## Kindly Note
-
-This repository contains an assignment for potential Test Engineers at Cyber Sierra, you can apply for a job at: https://cybersierra.freshteam.com/jobs/0_txM6DzkAGM/test-engineer-remote
