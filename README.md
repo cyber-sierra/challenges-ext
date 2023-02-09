@@ -1,25 +1,102 @@
-# Assignment
+# Backend engineer challenge
+This branch in the repository contains an assignment for potential Backend engineers at Cyber Sierra, you can apply for a job at:  https://cybersierra.freshteam.com/jobs/mt1GDbnHgarR/backend-engineer-remote
 
-### The goal of this project is to assess Test Engineering skills for candidates at Cyber Sierra.
 
-Project Name: CS Test Suite
+## Assignment 1:
 
-Project Goal: Create manual and automated test suites for any application of your choice
+### Q1> Write a function to convert the following dictionary to a tree:
 
-Technology: JMeter / Your Preferred Tool
+For this challenge you can use any graph library like networkx or graphviz or zefhub
 
-Deliverables: Exported, runnable test suite in xml or zip file. You will be walking through your work with your interviewer 
+{
+'root': [ 
+	'rootName',
+	{'p1': [ 'p1Name',
+					{
+					 'sp2': [1, 2], 
+					 'sp3': [3,4]
+					}
+				]
+	},
+	{
+		'p2': {'ln': [5,6], 
+					 'rn': 'onlyChild'
+					 }
+	}
+]
+}
 
-Description: Create manual and automated test suites designe to test an application of your choice. 
 
-Boundaries: Do not spend more than 3 hours on this task. You may limit your manual and automated test cases to 5 each. 
+#### Expected Tree:
 
-Criteria for assessment: Originality, Structure, Ease of understanding
+![Expected Tree](./images/ExpectedTree.png)
 
-## Guidelines
 
-The test suite has to be easy to setup and work without major issues.
 
-## Kindly Note
 
-This repository contains an assignment for potential Test Engineers at Cyber Sierra, you can apply for a job at: https://cybersierra.freshteam.com/jobs/0_txM6DzkAGM/test-engineer-remote
+#### Test inputs to pass: 
+
+a. Pass subtrees as dictionary
+```json
+{
+'root': [ 
+	{
+		'p2': {'ln': [5,6], 
+			   'rn': 'onlyChild'
+					 }
+	},
+	{  'p3': {'ln2': 'leftChild',
+			  'rn2': 'rightChild'}}
+]
+}
+```
+
+b.  Pass subtrees  List
+```json
+{
+'root': [ 1,
+          {'secondParent': [2,3]}, 
+          4
+]
+}
+```
+
+
+c. Pass subtrees as str + List[Dict]
+```json
+{
+'root': [ 
+	'rootName',
+  {  'p1': 'p1Name'
+	 'sp2': [1, 2], 
+	 'sp3': [3,4]
+	}
+  ]
+}
+```
+
+d. Bonus: Pass subtrees as Dict:
+```json
+{
+'root':  
+	{
+		'p2': {'ln': [5,6], 
+			   'rn': 'onlyChild'
+					 }
+	{  'p3': {'ln2': 'leftChild',
+			  'rn2': 'rightChild'}}
+}
+}
+```
+
+
+Q2> From the tree in Q1,
+
+a. Return the bottom-up level order traversal of its nodes’ values. (ie, from left to right, level by level from leaf to root).
+
+Expected Output:
+```
+[[1,2,3,4,5,6,'onlyChild'], ['p1Name', 'sp2', 'sp3', 'ln', 'rn'], ['rootName', 'p1', 'p2']]
+```
+
+b. Take input from a user to skip a level and skip that level
