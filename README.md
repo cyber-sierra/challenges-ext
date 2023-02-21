@@ -78,14 +78,12 @@ c. Pass subtrees as str + List[Dict]
 d. Bonus: Pass subtrees as Dict:
 ```json
 {
-'root':  
-	{
-		'p2': {'ln': [5,6], 
-			   'rn': 'onlyChild'
-					 }
-	{  'p3': {'ln2': 'leftChild',
-			  'rn2': 'rightChild'}}
-}
+
+"root":  { "p2": { "ln": [5,6],
+           	   "rn": "onlyChild"},
+           "p3": {"ln2": "leftChild", 
+                    "rn2": "rightChild"}
+        }
 }
 ```
 
