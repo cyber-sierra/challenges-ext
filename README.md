@@ -1,5 +1,5 @@
 # Backend engineer challenge
-This branch in the repository contains an assignment for potential Backend engineers at Cyber Sierra, you can apply for a job at:  https://cybersierra.freshteam.com/jobs/mt1GDbnHgarR/backend-engineer-remote
+This branch in the repository contains an assignment for Backend roles at Cyber Sierra
 
 
 ## Assignment 1:
